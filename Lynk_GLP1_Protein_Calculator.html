@@ -92,6 +92,22 @@ footer{margin-top:24px;padding-top:12px;border-top:1px solid var(--line);font-si
 }
 @media print{.lang{display:none}html,body{background:#fff}section{break-inside:avoid-page}details.se{break-inside:avoid}details.se>*{display:block}}
 </style>
+<style>
+.link,.tile,.gl,.btn,.pill,.cpb,.chip,.lang button,a.card{transition:transform .15s ease,box-shadow .15s ease,background-color .15s ease,border-color .15s ease,filter .15s ease;cursor:pointer}
+.link:hover,.tile:hover,.gl:hover,a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(30,27,75,.22);border-color:var(--teal,#14a39a)}
+.btn:hover,.pill:hover,.cpb:hover,.chip:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(30,27,75,.25);filter:brightness(1.12)}
+.chip:hover{border-color:var(--teal,#14a39a)}
+.lang button:hover{background:var(--teal-bg,#e3f5f3)}
+.lang button[aria-pressed="true"]:hover{background:var(--navy)}
+p a:hover,li a:hover,dd a:hover,footer a:hover{text-decoration-thickness:3px;color:var(--teal,#14a39a)}
+.hn a,.ais a,.top a{transition:background-color .15s ease,color .15s ease,opacity .15s ease,transform .15s ease}
+.hn a:hover{background:var(--teal-bg,#e3f5f3);color:var(--navy);text-decoration:underline;text-underline-offset:4px}
+.ais a:hover{transform:translateY(-2px);background:var(--teal,#30BA9B);color:#fff;border-color:var(--teal,#30BA9B)}
+.top a:hover,a:has(> img):hover{opacity:.75}
+a:has(> img){transition:opacity .15s ease}
+a:focus-visible,button:focus-visible{outline:3px solid var(--teal,#14a39a);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.link,.tile,.gl,.btn,.pill,.cpb,.chip,a.card{transition:none}.link:hover,.tile:hover,.gl:hover,a.card:hover,.btn:hover,.pill:hover,.cpb:hover,.chip:hover{transform:none}}
+</style>
 </head>
 <body>
 <div class="page">
