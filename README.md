@@ -1,4 +1,4 @@
-# Lynk Medical patient site
+# LYNK Medical patient site
 
 GLP-1 patient education pages, English and Spanish. Start at `Lynk_Patient_Hub.html` (add `?lang=es` for Spanish).
 
